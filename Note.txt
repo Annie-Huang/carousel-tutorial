@@ -1,0 +1,7 @@
+How To Create An Image Slider In HTML, CSS & Javascript
+(https://www.youtube.com/watch?v=KcdBOoK3Pfw&t=41s)
+
+https://github.com/Annie-Huang/carousel-tutorial
+
+=====================================================================
+
