@@ -7,8 +7,10 @@
 .carousel-container {
   width: 60%;
   margin: auto;
-  /*overflow: hidden;*/
-  border: 5px solid black
+  border: 5px solid black;
+
+  /* !!!! This is the location to hide the prev and next images... */
+  overflow: hidden;
 }
 
 .carousel-slide {
