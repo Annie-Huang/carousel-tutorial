@@ -16,6 +16,10 @@ carouselSlide.style.transform = 'translateX(' + -size * counter + 'px)';
 
 nextBtn.addEventListener('click', () => {
   console.log('next clicked');
+
+  // This is in case you click too fast on the next button without giving time for the transaction to finish so it can make the jump to the first element.
+  if (counter >= carouselImages.length - 1) return;
+
   carouselSlide.style.transition = 'transform 0.4s ease-in-out';
   counter++;
   carouselSlide.style.transform = 'translateX(' + -size * counter + 'px)';
@@ -23,6 +27,9 @@ nextBtn.addEventListener('click', () => {
 
 prevBtn.addEventListener('click', () => {
   console.log('prev clicked');
+
+  // This is in case you click too fast on the prev button without giving time for the transaction to finish so it can make the jump to the last element.
+  if (counter <= 0) return;
 
   carouselSlide.style.transition = 'transform 0.4s ease-in-out';
   counter--;
