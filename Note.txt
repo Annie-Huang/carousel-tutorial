@@ -3,5 +3,7 @@ How To Create An Image Slider In HTML, CSS & Javascript
 
 https://github.com/Annie-Huang/carousel-tutorial
 https://github.com/Annie-Huang/image-slider
+
+https://fontawesome.com/v6.0/icons?d=gallery&p=1&q=arrow&s=solid
 =====================================================================
 
